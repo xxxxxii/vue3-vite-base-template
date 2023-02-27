@@ -12,7 +12,9 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "noEmit": true,
-    "baseUrl": "./",
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     }
